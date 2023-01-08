@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Img merge 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="OrigImg">
+        <div>
+            <div id="dropbox1">
+                Choose file by the button below or Drop here.
+            </div>
+            <br>
+            <input type="file" name="inputFile" id="inputImg1" data-target="file-uploader" multiple>
+            <br><br>
+        </div>
+        <div>
+            <div id="dropbox2">
+                Choose file by the button below or Drop here.
+            </div>
+            <br>
+            <input type="file" name="inputFile" id="inputImg2" data-target="file-uploader" multiple>
+            <br><br>
+        </div>
+    </div>
+    <div id="mergeResult"></div>
+    
+
+    <script src="//unpkg.com/jquery"></script>
+    <script src="main.js"></script>
+</body>
+</html>

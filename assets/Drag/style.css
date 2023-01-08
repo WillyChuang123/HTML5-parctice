@@ -1,0 +1,12 @@
+#dropbox {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    color: cadetblue;
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
+}
+#preview {
+    font-size: 24px;
+}

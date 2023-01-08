@@ -1,0 +1,23 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table {
+    border: 2px solid black;
+    width: 80%;
+}
+td {
+    border: 1px solid black;
+}
+#thisFormatResult, #thisDurationResult {
+    font-weight: bold;
+}
+#dropbox {
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    background-color: lightgray;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px dashed gray;
+}
